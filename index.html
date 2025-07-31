@@ -29,7 +29,7 @@
     scene.add(light);
 
     const loader = new GLTFLoader();
-    loader.load('model.glb', function (gltf) {
+    loader.load('https://powerbi-3d-viewer.vercel.app/model.glb', function (gltf) {
       scene.add(gltf.scene);
     }, undefined, function (error) {
       console.error(error);
